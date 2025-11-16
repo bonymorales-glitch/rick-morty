@@ -2,12 +2,13 @@ import { useDeferredValue, useEffect, useMemo, useState } from "react"
 import useFetch from "./hooks/useFetch.ts/useFetch";
 import type { Location } from "./types/location.interface";
 import getRandomNumber from "./utils/getRamdomNumber";
-import Loader from "./componentes/ui/Loader";
-import ErrorMessage from "./componentes/ui/ErrorMessage";
-import LocationInfo from "./componentes/LocationInfo";
-import ResidentCard from "./componentes/ResidentCard";
-import LocationForm from "./componentes/LocationForm";
-import Pagination from "./componentes/ui/pagination";
+import Loader from "./components/ui/Loader";
+import ErrorMessage from "./components/ui/ErrorMessage";
+import LocationInfo from "./components/LocationInfo";
+import ResidentCard from "./components/ResidentCard";
+import LocationForm from "./components/LocationForm";
+import Pagination from "./components/ui/Pagination";
+
 
 
 function App() {
