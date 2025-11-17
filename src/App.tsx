@@ -48,7 +48,7 @@ function App() {
 
       <main className="min-h-screen flex-col items-center justify-center bg-gray-100">
         <header>
-          <img className="" src="../public/image/rick.png" alt="Encabezado rick and morty" />
+          <img src="../public/image/foto1.png" alt="Encabezado rick" />
         </header>
       <div className="bg-amber-400 w-full h-12"><h1 className="text-3xl font-bold text-white text-center text-shadow-lg">Proyecto Rick And Morty</h1></div>
       
